@@ -11,6 +11,8 @@
     "tests"
   ],
   "dependencies": {
+    "angular": "*",
+    "jquery": "*",
     "ng-board-linker": "*",
     "ng-board-smoothie": "*",
     "ng-board-list": "*"

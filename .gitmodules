@@ -1,3 +1,3 @@
-[submodule "dashboard/bower_components/ng-board"]
-	path = dashboard/bower_components/ng-board
+[submodule "dashboard/app/components/ng-board"]
+	path = dashboard/app/components/ng-board
 	url = git@github.com:leostera/ng-board.git

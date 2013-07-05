@@ -13,4 +13,13 @@ results
 
 npm-debug.log
 node_modules
-bower_components
+
+node_modules
+dist
+.tmp
+.sass-cache
+dashboard/app/components
+app/styles/**/*.css
+test-results.xml
+.DS_Store
+docs/*

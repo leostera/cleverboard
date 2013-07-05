@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "mocha",
-    "setup": "npm i; git submodule init; git submodule update; cd dashboard; bower i;"
+    "start": "node index.js",
+    "setup": "npm i; git submodule init; git submodule update; cd dashboard; bower i; npm i; cd ..;"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
   },
   "dependencies": {
     "transporter.io-ng-board": "0.0.2",
-    "transporter.io": "0.0.2"
+    "transporter.io": "0.0.2",
+    "engine.io": "~0.6.3"
   },
   "devDependencies": {
     "mocha": "*",
