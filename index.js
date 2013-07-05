@@ -23,10 +23,7 @@ server.on('connection', function (socket) {
 var t = require('transporter.io')
   , ngBoard = require('transporter.io-ng-board');
 
-ngBoard.serveFiles({
-  port: 3000,
-  dir: __dirname+"/dashboard/dist"
-});
+ngBoard.listen(3000);
 
 t.transports.push(ngBoard);
 
