@@ -1,0 +1,18 @@
+{
+  "name": "dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-board-linker": "*",
+    "ng-board-smoothie": "*",
+    "ng-board-list": "*"
+  }
+}
