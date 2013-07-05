@@ -2,8 +2,17 @@
 ### the first project using ng-board and transporter.io
 
 ### Setup
-```
+```shell
 npm run-script setup
+```
+
+### Usage
+```shell
+#inside the main folder to start the server
+npm start
+
+#inside the dashboard folder to serve the front-end
+npm start
 ```
 
 ### Proposed Specs (absolutely debatable):
