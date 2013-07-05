@@ -7,7 +7,7 @@
   "scripts": {
     "test": "mocha",
     "start": "node index.js",
-    "setup": "npm i; git submodule init; git submodule update; cd dashboard; npm run-script setup; cd ..;"
+    "setup": "npm i; git submodule init; git submodule update; cd dashboard; bower i; npm i; cd ..;"
   },
   "repository": {
     "type": "git",
